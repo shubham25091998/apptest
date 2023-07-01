@@ -13,6 +13,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
+// change 1
 
 #include "SeatAdjusterApp.h"
 #include "sdk/IPubSubClient.h"
