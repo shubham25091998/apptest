@@ -18,6 +18,11 @@ name: Release workflow
 on:
   release:
     types: [published, edited]
+  workflow_dispatch:
+  push:
+    # Run only on branches/commits and not tags
+    branches:
+      - main
 
 jobs:
   initialize-matrix:
